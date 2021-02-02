@@ -1,3 +1,5 @@
+This is a fork of http://userstyles.org/styles/179379
+
 # Install Guide
 
 ## Install Stylus
