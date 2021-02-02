@@ -15,10 +15,7 @@
         background: white;
     }
 
-    span[role="img"] {
-        filter: invert(100%) hue-rotate(180deg) brightness(105%) contrast(105%);
-    }
-
+    span[role="img"],
     img,
     svg,
     iframe,
@@ -26,15 +23,25 @@
         filter: invert(100%) hue-rotate(180deg) brightness(105%) contrast(105%);
     }
 
+    [class^="media-viewer-popup"],
+    [data-focus-lock-disabled="false"] > [class^="sc-"] {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    [class^="mvng-hide-controls"] {
+        color: black;
+        background-image: none;
+    }
+
     /* Fix bug with white edges on sprint board */
     #gh {
         padding: 0 40px;
     }
-
+    
     #content {
         margin: 0;
     }
-
+    
     /* Fix scroll background problems */
     [data-testid="Content"] > div:first-child {
         background: white;
