@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           JIRA Dark
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.1
 @description    A fork of http://userstyles.org/styles/179379
 @author         BeefMediumRare
 ==/UserStyle== */
@@ -16,6 +16,7 @@
     }
 
     span[role="img"],
+    span[style^="background-image"],
     img,
     svg,
     iframe,
